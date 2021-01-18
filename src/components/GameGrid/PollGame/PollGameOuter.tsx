@@ -38,7 +38,7 @@ interface Props {
 const PollGameOuter: React.FC<Props> = ({ voteInfo, teamData: oldTeamData, tweetId, hasStarted }) => {
   const classes = useStyles()
 
-  let teamData: [TeamData, TeamData] = oldTeamData
+  const teamData: [TeamData, TeamData] = oldTeamData
 
   console.log(oldTeamData)
 
