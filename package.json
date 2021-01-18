@@ -40,7 +40,6 @@
     "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "@cherihung/eslint-config-gatsby": "^1.0.7",
     "@typescript-eslint/eslint-plugin": "^4.13.0",
     "@typescript-eslint/parser": "^4.13.0",
     "babel-plugin-transform-remove-console": "^6.9.4",
