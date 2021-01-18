@@ -43,5 +43,7 @@ module.exports = {
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': 'error',
     indent: 'off',
+    'no-duplicate-imports': 'off',
+    '@typescript-eslint/no-duplicate-imports': ['error'],
   },
 }
