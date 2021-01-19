@@ -40,8 +40,6 @@ const PollGameOuter: React.FC<Props> = ({ voteInfo, teamData: oldTeamData, tweet
 
   const teamData: [TeamData, TeamData] = oldTeamData
 
-  console.log(oldTeamData)
-
   // Add "is light" values
   teamData[0].isMainColorLight = Color(teamData[0].mainColor).isLight()
   teamData[1].isMainColorLight = Color(teamData[1].mainColor).isLight()
